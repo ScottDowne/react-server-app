@@ -2,7 +2,17 @@
 React app and Node server for basket signups with localization.
 
 ## To use and configure
-Copy these files into a new repo. Configure values in sample.env. Start making changes to src/ locales/ and less/.
+Create a new repo.
+
+Clone the new repo to your local system.
+
+Clone this repo into you local system.
+
+Copy these files from this clone into your new repo clone.
+
+You'll need to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url/domain, once you know what that is.
+
+Start making changes to src/ locales/ and less/.
 
 ## Setup
 
