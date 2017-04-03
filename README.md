@@ -14,6 +14,19 @@ You'll need to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url
 
 Start making changes to src/ locales/ and less/.
 
+
+## Environment Variables
+
+You can configure the following environment variables:
+
+|Variable|About|
+|--------|-----|
+| OPTIMIZELY_ID | Optimizely Project ID (not a secret) e.g. '206878104' |
+| OPTIMIZELY_ACTIVE | If set to 'yes' (String) the project will include Optimizely snippet in the page load |
+| SUPPORTED_LOCALES | If set to '*' all locales under `intl-config.js` file for `src` will be enabled otherwise it expects array of locales.
+| FULL_SUBDOMAIN | Used for page title and optimizely.
+| SOURCEURL | The URL to send to Basket during a signup.
+
 ## Setup
 
 ```
@@ -27,15 +40,4 @@ $> cp sample.env .env
 $> npm start
 ```
 
-## Environment Variables
-
-You can configure the following environment variables:
-
-|Variable|About|
-|--------|-----|
-| OPTIMIZELY_ID | Optimizely Project ID (not a secret) e.g. '206878104' |
-| OPTIMIZELY_ACTIVE | If set to 'yes' (String) the project will include Optimizely snippet in the page load |
-| SUPPORTED_LOCALES | If set to '*' all locales under `intl-config.js` file for `src` will be enabled otherwise it expects array of locales.
-| FULL_SUBDOMAIN | Used for page title and optimizely.
-| SOURCEURL | The URL to send to Basket during a signup.
 
