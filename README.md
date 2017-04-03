@@ -1,6 +1,9 @@
 # react-server-app
 React app and Node server for basket signups with localization.
 
+## To use and configure
+Copy these files into a new repo. Configure values in sample.env. Start making changes to src/ locales/ and less/.
+
 ## Setup
 
 ```
@@ -25,7 +28,4 @@ You can configure the following environment variables:
 | SUPPORTED_LOCALES | If set to '*' all locales under `intl-config.js` file for `src` will be enabled otherwise it expects array of locales.
 | FULL_SUBDOMAIN | Used for page title and optimizely.
 | SOURCEURL | The URL to send to Basket during a signup.
-
-## To use and configure
-Copy these files into a new repo. Configure values in sample.env. Start making changes to src/ locales/ and less/.
 
