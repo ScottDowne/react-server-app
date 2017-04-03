@@ -10,10 +10,9 @@ Clone this repo into your local system.
 
 Copy all files except `.git` from this clone into your new repo clone.
 
-You'll eventually want to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url/domain, once you know what that is.
+Start making changes to `src/` `locales/` and `less/`.
 
-Start making changes to src/ locales/ and less/.
-
+You'll eventually want to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url/domain, once you know what that is. These ar defaulted to example.com, and https://example.com.
 
 ## Environment Variables
 
@@ -21,8 +20,6 @@ You can configure the following environment variables:
 
 |Variable|About|
 |--------|-----|
-| OPTIMIZELY_ID | Optimizely Project ID (not a secret) e.g. '206878104' |
-| OPTIMIZELY_ACTIVE | If set to 'yes' (String) the project will include Optimizely snippet in the page load |
 | SUPPORTED_LOCALES | If set to '*' all locales under `intl-config.js` file for `src` will be enabled otherwise it expects array of locales.
 | FULL_SUBDOMAIN | Used for page title and optimizely.
 | SOURCEURL | The URL to send to Basket during a signup.
