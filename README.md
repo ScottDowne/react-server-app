@@ -23,6 +23,8 @@ You can configure the following environment variables:
 | SUPPORTED_LOCALES | If set to '*' all locales under `intl-config.js` file for `src` will be enabled otherwise it expects array of locales.
 | FULL_SUBDOMAIN | Used for page title and optimizely.
 | SOURCEURL | The URL to send to Basket during a signup.
+| PORT | Port for the app, defaults to 4141, feel free to change this to any 4 digit number.
+| APPLICATION_URI | For local dev, this is just http://localhost:4141 unless you changed PORT, which if you did you should update the port here to match.
 
 ## Setup
 
