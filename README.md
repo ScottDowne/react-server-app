@@ -10,7 +10,7 @@ Clone this repo into your local system.
 
 Copy all files except `.git` from this clone into your new repo clone.
 
-You'll need to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url/domain, once you know what that is.
+You'll eventually want to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url/domain, once you know what that is.
 
 Start making changes to src/ locales/ and less/.
 
