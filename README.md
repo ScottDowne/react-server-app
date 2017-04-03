@@ -6,9 +6,9 @@ Create a new repo.
 
 Clone the new repo to your local system.
 
-Clone this repo into you local system.
+Clone this repo into your local system.
 
-Copy all files cept `.git` from this clone into your new repo clone.
+Copy all files except `.git` from this clone into your new repo clone.
 
 You'll need to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url/domain, once you know what that is.
 
