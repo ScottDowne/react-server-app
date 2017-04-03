@@ -12,7 +12,7 @@ Copy all files except `.git` from this clone into your new repo clone.
 
 Start making changes to `src/` `locales/` and `less/`.
 
-You'll eventually want to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url/domain, once you know what that is. These ar defaulted to example.com, and https://example.com.
+You'll eventually want to update `SOURCEURL` and `FULL_SUBDOMAIN` to be your new site's url/domain, once you know what that is. These are defaulted to example.com, and https://example.com.
 
 ## Environment Variables
 
