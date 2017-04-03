@@ -37,4 +37,6 @@ $> cp sample.env .env
 $> npm start
 ```
 
+Your server should now be running on localhost:4141, unless you changed the PORT and APPLICATION_URI value in `.env`
+
 
